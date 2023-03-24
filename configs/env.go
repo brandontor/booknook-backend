@@ -13,5 +13,5 @@ func EnvMongoURI() string {
 		log.Fatal("Error Loading .env file")
 	}
 
-	return os.Getenv("MONGOURI")
+	return os.Getenv("MONGO_URL")
 }
