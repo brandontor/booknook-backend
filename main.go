@@ -18,7 +18,7 @@ func main() {
 	//routes
 	routes.RouterSetup(app)
 
-	port := os.Getenv("PORT")
+	port := os.Getenv("$PORT")
 
 	if port == "" {
 		port = "3000"
